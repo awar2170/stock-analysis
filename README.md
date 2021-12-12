@@ -24,3 +24,5 @@ Talk about why the refactor code ran faster
 ## The Disadvantages of Refactoring Code 
 
 ## Applying the Advantages and Disadvantages of Refactoring Code
+
+![This is a photo](https://github.com/awar2170/stock-analysis/blob/main/VBA_Challenge_2017.PNG)

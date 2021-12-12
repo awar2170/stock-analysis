@@ -14,15 +14,15 @@ The 2018 stocks have a a maximum total daily volume of $607,473,500 from ENPH's 
 ## Macro Runtime Analysis
 In the orignal script, the 2017 stocks analysis macro had an 0.828125 second run time and the 2018 stocks analysis macro had and 0.84375 runtime.  In the refactored code, the 2017 stocks analysis macro had an 0.828125 second run time and the 2018 stocks analysis macro had and 0.84375 runtime. 
 
-Talk about why the refactor code ran faster 
+![2017 Refactored Runtime](https://github.com/awar2170/stock-analysis/blob/main/VBA_Challenge_2017.PNG)
+![2018 Refactored Runtime](https://github.com/awar2170/stock-analysis/blob/main/VBA_Challenge_2018.PNG)
+
+The orignal code relied on nested for loops that looped through each ticker and then looped through each row of the data.  Instead of saving the values it calculated into an array like the refactored code, the orignal code outputs values into the "All Stocks Analysis" worksheet as it calculated the values.  This means that the computer had to spend additional time throwing away values each time it looped through the nested for loops in the orignal code.  The refactored code most likely ran faster due to using separate loops and assigning the values from these loops to arrays.  This removed the computer's need to throw out values and do unnecessary computations since after each loop completed, the computer stored the loop's outputs into an array.  This made outputting the values faster because the computer outputs the values stored in the arrays instead of outputting values as it calculates them.        
 
 # Summary
 
 ## The Advantages of Refactoring Code 
 
-
 ## The Disadvantages of Refactoring Code 
 
 ## Applying the Advantages and Disadvantages of Refactoring Code
-
-![This is a photo](https://github.com/awar2170/stock-analysis/blob/main/VBA_Challenge_2017.PNG)

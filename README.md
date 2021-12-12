@@ -28,4 +28,12 @@ The advantages of refactoring code for effeciency are that it requires less comp
 ## The Disadvantages of Refactoring Code 
 The disadvantages of refactoring code are that it can break the original code and it takes time to implement.  In VBA specifically, another disadvantage is that when refactoring code you may have to double check that certain buttons that are associated with macros may need to be updated for the worksheet to be interactive and user friendly.  Refactored code can break the original code because you may be implementing different, more effecient, logic that may not follow the originally written logic.  This takes time to check and ensure that your more effecient code does not break the code overall. 
 
-## Applying the Advantages and Disadvantages of Refactoring Code
+## Applying the Advantages and Disadvantages of the Original VBA Code compared to the Refactored VBA Code
+This section will apply the previously mentioned advantages and disadvantages in the context of this VBA code challenge. 
+
+### Advantages: Less Computer Computational Effort and Implementing Different Learned Practices
+We can tell that the refactored code requires less computer computational effort due to the decreased time it takes the computer to run the refactored code compared to the original code.  The refactored code runs X times faster than the original code for 2017 and Y times faster for 2018.  Please refer to the "Marco Runtime Analysis" section for specific runtime reports. 
+
+### Disadvantages: Breaking Original Code and Takes Time to Implement
+
+

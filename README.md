@@ -12,7 +12,7 @@ The 2018 stocks have a a maximum total daily volume of $607,473,500 from ENPH's 
 2017 is the more profitable year, despite having a lower average total daily value, because the year has a positive average return rate.  This means that, on average, the portfolio made money that year. 
 
 ## Macro Runtime Analysis
-In the orignal script, the 2017 stocks analysis macro had an 0.828125 second run time and the 2018 stocks analysis macro had and 0.84375 runtime.  In the refactored code, the 2017 stocks analysis macro had an 0.828125 second run time and the 2018 stocks analysis macro had and 0.84375 runtime.  The screenshots for the 2017 and 2018 runtime for the refactored code are pasted below. 
+In the orignal script, the 2017 stocks analysis macro had an 0.828125 second run time and the 2018 stocks analysis macro had and 0.84375 runtime.  In the refactored code, the 2017 stocks analysis macro had an 0.04296875 second run time and the 2018 stocks analysis macro had and 0.0640625 runtime.  The screenshots for the 2017 and 2018 runtime for the refactored code are pasted below. 
 
 ![2017 Refactored Runtime](https://github.com/awar2170/stock-analysis/blob/main/VBA_Challenge_2017.PNG)
 ![2018 Refactored Runtime](https://github.com/awar2170/stock-analysis/blob/main/VBA_Challenge_2018.PNG)
@@ -32,8 +32,9 @@ The disadvantages of refactoring code are that it can break the original code an
 This section will apply the previously mentioned advantages and disadvantages in the context of this VBA code challenge. 
 
 ### Advantages: Less Computer Computational Effort and Implementing Different Learned Practices
-We can tell that the refactored code requires less computer computational effort due to the decreased time it takes the computer to run the refactored code compared to the original code.  The refactored code runs X times faster than the original code for 2017 and Y times faster for 2018.  Please refer to the "Marco Runtime Analysis" section for specific runtime reports. 
+We can tell that the refactored code requires less computer computational effort due to the decreased time it takes the computer to run the refactored code compared to the original code.  The refactored code runs about 19.2 times faster than the original code for 2017 and 19.63 times faster for 2018.  Please refer to the "Marco Runtime Analysis" section for specific runtime reports.
+
+The refactored code implements the practice of using variables as stand-ins for different values.  This is very effective in the refactored code through the use of arrays to store values.  Storing the values in arrays is more effecient because the computer can store looped outputs into an array instead of outputting the value and reseting the variables.  Please refer to the "Macro runtime Analysis" section for more infomration on how the use of arrays decreases the macro runtime.  
 
 ### Disadvantages: Breaking Original Code and Takes Time to Implement
-
-
+This challenge broke original code because in the original macro, the output was obtained through the use of nested for loops.  In the refactored code, the output was obtained without nested for loops.  This meant that the original code that we used would be able to be directly applied to the solution of the refactored code.  This takes time to think through and implement to ensure the logic flows appropriately. 
